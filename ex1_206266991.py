@@ -3,7 +3,7 @@
 #########################################
 # Question 1 - do not delete this comment
 #########################################
-name  = "GuyBashan233"
+name  = "GuyBashan"
 # Replace ??? with a string of your choice.
 # Write the rest of the code for question 1 below here.
 print("Hello " + name+"!")
