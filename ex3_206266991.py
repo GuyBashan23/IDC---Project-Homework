@@ -3,7 +3,7 @@
 #########################################
 # Question 1 - do not delete this comment
 #########################################
-lst = ["lebron","james","is","the","GOATTTT223"]# Replace ??? with a list of your choice.
+lst = ["lebron","james","is","the","GOAT"]# Replace ??? with a list of your choice.
 # Write the rest of the code for question 1 below here.
 print(list(range(len(lst))))
 
