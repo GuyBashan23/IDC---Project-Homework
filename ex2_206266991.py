@@ -3,7 +3,7 @@
 #########################################
 # Question 1 - do not delete this comment
 #########################################
-number = int(input("INSERET NUMBERR: "))  # Replace ??? with an appropriate command to get a number from the user.
+number = int(input("INSERET NUMBER: "))  # Replace ??? with an appropriate command to get a number from the user.
 # Write the rest of the code for question 1 below here.
 if number%3==0:
              print(f"I am {number} and I am a multiplication of 3")
