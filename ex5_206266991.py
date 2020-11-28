@@ -138,12 +138,17 @@ print(my_lst)
 # Question 5 - do not delete this comment
 #########################################
 def is_palindrom(s5):
-    if s5 == s5[::-1]:
-        x = (2 == 2)
-        return x
+    y = ""
+    for i in s5:
+        y = i + y
+    if y == s5:
+        return (2 == 2)
     else:
-        x = (2 == 3)
-        return x
+        return (2 == 3)
+
+
+x = is_palindrom("anana")
+print(x)
 
 
 x = is_palindrom('Anana')
