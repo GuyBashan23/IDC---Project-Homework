@@ -6,7 +6,7 @@
 def is_char_in_str(s1, c1):
     x = c1 in s1
     return x
-x=r_in_char_is("banana", "a")
+x=is_char_in_str("banana", "a")
 print(x)
 
 
@@ -61,15 +61,15 @@ print(my_lst)
 # Question 5 - do not delete this comment
 #########################################
 def is_palindrom(s5):
-    if s5 == s5[::-1]:
-        x = (2 == 2)
-        return x
+    y = ""
+    for i in s5:
+        y = i + y
+    if y == s5:
+        return (2 == 2)
     else:
-        x = (2 == 3)
-        return x
+        return (2 == 3)
 
 
-x = is_palindrom('Anana')
+x = is_palindrom("anana")
 print(x)
-
 
