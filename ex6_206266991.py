@@ -67,19 +67,17 @@ def clean_words_of_sentence(sentence):
 # Question 5 - do not delete this comment
 #########################################
 def is_valid_pattern(p):
-    number = 0
-    for good in p:
-        if good == "(":
-            counter2 = number + 1
-        elif good == ")":
-            counter2 = number - 1
-        if number < 0:
+    i=0
+    new_lst= list(p)
+    length = len(new_lst)
+    for elem in range(i,length,2):
+        if new_lst[elem] != '(':
             return False
-
-    if number == 0:
-        return True
-    else:
-        return False
-    
+        if new_lst[elem] == '(':
+            if new_lst[elem + 1] == ')':
+                continue
+            else:
+                return False
+    return True
 
 
